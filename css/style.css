@@ -1,0 +1,28 @@
+/* "notas"
+Fonte sem serifa
+Fundo na cor `antiquewhite`
+O artigo:
+   - Artigo com comprimento de 800px
+   - Padding vertical de 4rem e horizontal de 6rem
+   - Centralizado
+   - Fonte na cor `antiquewhite`
+   - Fundo na cor `chocolate`
+   - Altura de linha de 1.75 */
+
+html{
+    background: antiquewhite;
+    font-family: sans-serif;
+}
+
+body{
+    width: 800px;
+    padding: 6rem 4rem;
+    margin: 0 auto;
+    background: chocolate;
+    color: antiquewhite;
+    line-height: 1.75;
+}
+
+#nome{
+    font-size: 80%;
+}
